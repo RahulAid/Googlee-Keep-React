@@ -1,0 +1,145 @@
+.main-div {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 65%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid rgb(231, 227, 227);
+}
+
+.form {
+  height: 100%;
+  width: 60%;
+}
+
+.image {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  margin-top: 1.5%;
+  width: 18%;
+  height: 2.5em;
+  margin-left: 11%;
+}
+
+.title {
+  width: 100%;
+  margin-left: 12%;
+  margin-top: 1.5%;
+  height: 2em;
+  font-size: 1.8em;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.body {
+  border: 1px solid white;
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 76%;
+  margin-left: 12%;
+}
+
+.user-name {
+  margin-top: 5%;
+  margin-left: 2%;
+  width: 95%;
+}
+
+.user-name-description {
+  margin-left: 11.5%;
+  width: 80%;
+  text-align: left;
+  font-size: smaller;
+  color: grey;
+}
+
+.link {
+  text-decoration: none;
+  width: 76%;
+  margin-left: 12.5%;
+  text-align: left;
+  margin-top: 3%;
+  color: rgb(0, 162, 255);
+}
+
+.password {
+  margin-top: 7%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 76%;
+  margin-left: 12%;
+}
+
+.password-hint {
+  width: 70%;
+  margin-left: 13.5%;
+  font-size: medium;
+  color: grey;
+  text-align: left;
+}
+
+.checkbox {
+  width: 45%;
+  margin-top: 2%;
+  height: 2em;
+}
+
+#check {
+  border: 1px solid pink;
+  height: 1.3em;
+  width: 20%;
+}
+
+.footer {
+  width: 76%;
+  margin-left: 12%;
+  height: 7%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.body-img {
+  width: 75%;
+  height: 48%;
+  margin-top: 18%;
+  margin-left: 12%;
+}
+
+.img-title {
+  height: auto;
+  font-size: large;
+  margin-bottom: 10%;
+}
+
+.redirect {
+  text-decoration: none;
+  color: rgb(0, 162, 255);
+}

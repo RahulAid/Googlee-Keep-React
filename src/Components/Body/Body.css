@@ -1,0 +1,32 @@
+.body-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.take-note-container {
+  border: 2px solid #f1f3f4;
+  box-shadow: 1px 1px 7px 2px #f1f3f4;
+  width: 37em;
+  height: 2.5em;
+  border-radius: 8px;
+  margin-top: 2%;
+
+  justify-content: space-between;
+}
+
+.note-description-container {
+  border: 2px solid #f1f3f4;
+  box-shadow: 1px 1px 7px 2px #f1f3f4;
+  width: 37em;
+  height: 7.5em;
+  border-radius: 8px;
+  margin-top: 2%;
+}
+
+.note-container {
+  width: auto;
+  height: auto;
+  margin-top: 2%;
+}
